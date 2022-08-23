@@ -43,7 +43,7 @@ Pronto, você já tem o repositório na sua máquina.
 ## :link: Link para a página - Calculadora ➗ 
 
 * Link 
-  https://LarissaLima97.github.io/calculadora/calculadora.html
+  https://larissalima97.github.io/calculadora/calculadora.html
 
 
 

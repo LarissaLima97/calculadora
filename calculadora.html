@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="imagens/claculadora.ico" type="image/x-icon">
+    <script src="./calculadora.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input id="display" type="text" disabled>
+        <div id="container-numeros">
+            <button class="num" type="button" id="num-um" value="1" onclick="clickTeclado(this.value)"> 1 </button>
+            <button class="num" type="button" id="num-dois" value="2" onclick="clickTeclado(this.value)"> 2 </button>
+            <button class="num" type="button" id="num-tres" value="3" onclick="clickTeclado(this.value)"> 3 </button>
+            <button class="num" type="button" id="num-quatro" value="4" onclick="clickTeclado(this.value)"> 4 </button>  
+            <button class="num" type="button" id="num-cinco" value="5" onclick="clickTeclado(this.value)"> 5 </button>  
+            <button class="num" type="button" id="num-seis" value="6" onclick="clickTeclado(this.value)"> 6 </button>  
+            <button class="num" type="button" id="num-sete" value="7" onclick="clickTeclado(this.value)"> 7 </button>  
+            <button class="num" type="button" id="num-oito" value="8" onclick="clickTeclado(this.value)"> 8 </button>  
+            <button class="num" type="button" id="num-nove" value="9" onclick="clickTeclado(this.value)"> 9 </button> 
+            <button class="num" type="button" id="num-dez" value="0" onclick="clickTeclado(this.value)"> 0 </button>  
+            <button class="num" type="button" id="ponto" value="." onclick="clickTeclado(this.value)"> . </button>
+        </div> 
+        <div id="container-operacoes">
+            <button class="operacoes" type="button" id="bt-limpar" onclick="limpar()"> C </button>
+            <button class="operacoes" type="button" id="bt-multiplicar" onclick="multiplicacao()"> &#215; </button>
+            <button class="operacoes" type="button" id="bt-dividir" onclick = "divisao()"> &#247; </button>
+            <button class="operacoes" type="button" id="bt-subtrair" onclick="subtracao()"> - </button>
+            <button class="operacoes" type="button" id="bt-somar" onclick="soma()"> + </button>
+            <button class="operacoes" type="button" id="bt-igual" onclick="mostraResultado()"> = </button>
+            
+        </div>
+   
+    </div>
+
+    <div id="direitos">
+        <p>&#169;Larissa to Creditas</p>
+    </div>
+    
+</body>
+</html>
